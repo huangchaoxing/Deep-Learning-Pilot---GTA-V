@@ -227,7 +227,7 @@ def main():
                 interfere+=1
             if 'T' in keys:
                 duration=time.time()-last_time
-                automatic=1-(interfere/count)
+                automatic=1-(interfere/(count+interfere))
                 print("last for",duration,"seconds")
                 print("automatic",automatic)
                 if paused:
