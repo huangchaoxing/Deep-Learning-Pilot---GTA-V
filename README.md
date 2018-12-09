@@ -1,4 +1,5 @@
 # ENGN8536 Final Project "END TO END LEARNING FOR SELF DRIVING PLANE IN GTA V"
+## Overview
 The aim of this project is to train a convolutional neural
 network to automatically drive a plane in the game Grand
 Theft Auto V to avoid crashing under the condition of low
@@ -7,8 +8,17 @@ supervised learning method is adapted to train the CNN to
 pilot the plane. We tune an architecture of a CNN in this
 project and it is verified that the CNN is able to drive a
 plane in GTA V .
+## Outcome
+[Technical Report](https://github.com/huangchaoxing/8536-project/blob/master/Final_report_chaoxing_baiyinjiya.pdf
+[Video](https://www.youtube.com/watch?v=_yy678iEGRs&t=119s)
+[Video(for thoese who cannot access to youtube)](https://www.bilibili.com/video/av35704558)
+
 # Dependency
 Pytorch 0.4.0  
 OpenCV 3.4.1  
 Grand Theft Auto Five  
+# Reference
+[M. Bojarski et al., ”End to end learning for selfdriving
+cars,” arXiv preprint arXiv:1604.07316, 2016.](https://arxiv.org/abs/1604.07316)
+[Sentdex's py gtav](https://github.com/Sentdex/pygta5)
 
