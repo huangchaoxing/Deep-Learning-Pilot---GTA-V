@@ -17,6 +17,12 @@ plane in GTA V .
 Pytorch 0.4.0  
 OpenCV 3.4.1  
 Grand Theft Auto Five  
+# How to use:
+You will need to place the GTAV window on the top left of the screen as 800*600  
+Run the [data_collect.py](https://github.com/huangchaoxing/8536-project/blob/master/data_collect.py) and begin to pilot the plane(the details are explained in the technical report), the frames will be automatically labelled and saved.  
+Use [little_train.py](https://github.com/huangchaoxing/8536-project/blob/master/little_train.py) to train the network.  
+Use [test_model.py](https://github.com/huangchaoxing/8536-project/blob/master/test_model.py) to test the driving performance. Again, place the game window as it was during the data collection stage. Intervent the plane by using WASD when the plane is about to fail.  
+
 # Reference
 [M. Bojarski et al., ”End to end learning for selfdriving
 cars,” arXiv preprint arXiv:1604.07316, 2016.](https://arxiv.org/abs/1604.07316)  
