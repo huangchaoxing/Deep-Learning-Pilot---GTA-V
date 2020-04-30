@@ -10,8 +10,10 @@ project and it is verified that the CNN is able to drive a
 plane in GTA V .
 ## Outcome
 [Technical Report](https://github.com/huangchaoxing/8536-project/blob/master/Final_report_chaoxing_baiyinjiya.pdf)  
+[Presentation slide](https://github.com/huangchaoxing/Deep-Learning-Pilot---GTA-V/blob/master/presentation.pdf)
 [Video](https://www.youtube.com/watch?v=_yy678iEGRs&t=119s)  
 [Video(for thoese who cannot access to youtube)](https://www.bilibili.com/video/av35704558)  
+
 
 # Dependency
 Pytorch 0.4.0  
